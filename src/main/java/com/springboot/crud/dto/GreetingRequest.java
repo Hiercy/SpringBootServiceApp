@@ -1,13 +1,11 @@
 package com.springboot.crud.dto;
 
-import lombok.Builder;
 import lombok.Data;
 
 import java.math.BigInteger;
 
 @Data
-@Builder
-public class GreetingResponse {
+public class GreetingRequest {
     private BigInteger id;
     private String value;
 }
